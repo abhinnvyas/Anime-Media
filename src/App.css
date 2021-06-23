@@ -49,6 +49,10 @@
   display: none;
 }
 
+.app__profile {
+  position: sticky;
+}
+
 @media only screen and (max-width: 768px) {
   .app__contents {
     flex-direction: column;
