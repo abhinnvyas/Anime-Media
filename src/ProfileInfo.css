@@ -1,0 +1,90 @@
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background-color: white;
+  padding: 20px;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .profileInfo {
+    margin: 20px;
+    width: auto;
+    /* display: none; */
+  }
+}
+.profileInfo__profilePic {
+  width: 100%;
+}
+
+.profileInfo > h1 {
+  font-weight: 400;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+.profileInfo__username {
+  display: flex;
+  justify-content: center;
+}
+
+.profileInfo__username__h3 {
+  font-weight: 500;
+}
+
+.displayName {
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(247, 240, 240);
+  margin-left: 10px;
+}
+
+.profileInfo__username__h4 {
+  font-weight: 400;
+}
+
+.profileInfo__email {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}
+
+.profileInfo__email__h3 {
+  font-weight: 500;
+}
+
+.profileInfo__email__h4 {
+  font-weight: 400;
+}
+
+.email {
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: rgb(247, 240, 240);
+  margin-left: 10px;
+}
+
+.progressBar {
+  width: 100%;
+}
+
+.profileInfo__avatar {
+  object-fit: contain;
+}
+
+.avatar {
+  cursor: pointer;
+  margin-top: 0;
+}
+
+.uploadImage {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 10px;
+}

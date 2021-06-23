@@ -1,0 +1,17 @@
+.app__signup {
+  display: flex;
+  flex-direction: column;
+  padding: 11px;
+}
+
+.avatar:hover {
+  cursor: pointer;
+}
+
+.progressBar {
+  width: 100%;
+}
+
+.createPostText {
+  font-weight: 500;
+}
