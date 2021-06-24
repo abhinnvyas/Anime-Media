@@ -11,7 +11,6 @@ It is Completely Responsive as well.
 
 ## It is a **PWA**
 ----------
-
 That means it can be used natively on any device.
 
 On Desktop's it looks like this :
