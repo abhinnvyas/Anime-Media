@@ -6,6 +6,7 @@ This is a Social Media app for `WEEBS`. [Click here to see the Deployed App](htt
 [Click here to see the Deployed App](https://instagram-clone-99de8.web.app/)
 
 It is Completely Responsive as well.
+
 ![](./md_images/image02.png)
 
 ## It is a **PWA**
