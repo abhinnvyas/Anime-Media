@@ -50,7 +50,7 @@ function Post({ postId, username, caption, imageURL, user, photoURL }) {
       <div className="post__header">
         <Avatar
           className="post__avatar"
-          alt={username.toUpperCase()}
+          alt={username?.toUpperCase()}
           src={photoURL}
         />
         <h3>{username}</h3>
